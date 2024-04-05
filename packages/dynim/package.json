@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"test": "vitest",
+		"test-debug": "DEBUG=true vitest",
 		"test:ci": "pnpm test run"
 	},
 	"keywords": [],
